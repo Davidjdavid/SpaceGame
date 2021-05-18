@@ -18,13 +18,19 @@ let mouse = {
 
 //Canvas Clearing
 function clear() {
-    ctx.clearRect(0, 0, 800, 450);
+    ctx.clearRect(0, 0, 1024, 576);
 }
 
-canvasElement.addEventListener('mousedown', function(event) {
+canvasElement.addEventListener('mousemove', function(event) {
    mouse.x = event.x - canvasPosition.left;
    mouse.y = event.y - canvasPosition.top;
    clear();
    ctx.drawImage(playerImage, mouse.x, mouse.y);
+
+});
+
+//TO DO
+// Add projectile when mouse is clicked
+canvasElement.addEventListener('mousedown', function(event) {
 
 });
