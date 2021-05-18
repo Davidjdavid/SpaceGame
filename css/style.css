@@ -1,0 +1,25 @@
+#spaceGameCanvas {
+    background-color: darkslateblue;
+    border: 3px solid black;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#spaceGameTitleImage {
+    margin: auto;
+    display: block;
+    position: absolute;
+    padding-top: 100px;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: #CCBAFF;
+}
